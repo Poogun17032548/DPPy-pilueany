@@ -1,0 +1,5 @@
+name = input("Hey, what's your first name? : ")
+last = input("And your last name? : ")
+real = name.strip()
+fake = last.strip()
+print(f"Well, pleased to meet you, {real} {fake}")
