@@ -11,3 +11,4 @@ elif(multi < 0):
 else:
     print("The result is positive and negative.")
 
+
