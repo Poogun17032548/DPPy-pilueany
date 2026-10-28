@@ -2,9 +2,9 @@
 import sys
 # vertical = v
 # horizontal = h
-if (sys.argv[1] == "yolo"):
+if (len(sys.argv) > 1):
     print("none")
-elif(sys.argv[0] == "./advanced_mult.py" ) :
+else :
     v = 0
     h = 0
     while v < 11 :
@@ -17,4 +17,3 @@ elif(sys.argv[0] == "./advanced_mult.py" ) :
         print("")
         h = 0
         v += 1
-
